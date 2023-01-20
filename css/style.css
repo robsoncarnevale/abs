@@ -1,0 +1,242 @@
+/*=== TODAS AS PAGINAS ===*/
+
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+.content-table{display:flex; margin: 5% auto;}
+
+.rTable{width: 60%; text-align: center; margin: 0 auto;}
+    .rTable thead{background: black; font-weight: bold; color:#fff;}
+    .rTable tbody tr:nth-child(2n){background: #ccc;}
+    .rTable th , .rTable td{padding: 7px 0;}
+
+@media screen and (max-width: 480px){
+    .content-table{width: 94%;}
+
+    .rTable thead{display:none;}
+    .rTable tbody td{display: flex; flex-direction: column; }
+}
+
+@media only screen and (min-width: 1200px){
+    .conten-table{width:100%;}
+    .rTable tbody tr td:nth-child(1){width:10%;}
+    .rTable tbody tr td:nth-child(2){width:30%;}
+    .rTable tbody tr td:nth-child(3){width:20%;}
+    .rTable tbody tr td:nth-child(4){width:10%;}
+    .rTable tbody tr td:nth-child(5){width:30%;}
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#wrapper{
+	min-height: 100%;
+	position: relative;
+	}
+iframe{
+	background: #f4f4f4;
+}
+
+form{
+	width: 40%;
+	align-items: center;
+	text-align: center;
+	margin: 0 auto;
+	padding: 3%;
+	position: relative;
+}
+
+.btn-back{
+	align-items: right;
+	text-align: right;
+}
+
+.first_title{
+	font-size: x-large;
+}
+
+.second_title{
+	font-size: large;
+}
+
+form p{
+	text-align: left;
+	margin-top: 2%;
+}
+.style_input{
+	border-radius: 5px;
+	width: 100%;
+	background-color: #fafafa;
+	padding: 3.2%;
+}
+
+fieldset {
+    padding: 15px 0px;
+    color: rgb(238, 237, 221);
+    border-radius: 8px;
+    border: 1px solid rgb(60,91,134);
+}
+
+legend {
+		color: rgb(60,91,134);
+		font-weight: bold;
+		margin-top: 5px;
+}
+
+label {
+		color: #777;
+}
+
+select {
+	color: #777;
+	height: 32px;
+	border: 1px solid rgb(60,91,134);	
+	padding: 2px 5px !important;
+}
+
+input {
+	color: rgb(119, 119, 119);
+	height: 20px;
+}
+
+textarea {
+		margin-left: 10px !important;
+}
+
+#iframe{
+		width:100%;
+}
+
+#home a {
+		background: #fff;
+		border:1px;
+		border-radius:3px;
+		color:black;
+		height:50px;
+		width:150px;
+		position:relative;
+		margin-left:700px;
+		padding:10px;
+		
+}
+
+#container {
+		margin: 0 auto;
+		background: #111;
+		padding-bottom: 10px;
+		height:10px;
+		color:#fff;
+}
+
+#container a{
+		font-weight:bold;
+		margin-left:10px;
+}
+
+#container p {
+		color: rgb(255, 255, 255);
+		float: right;
+		font-size: 12px;
+		margin: 2px 5px;
+}		
+
+/*====== MENU LATERAL RELATORIOS ======*/
+
+.bodyerror {
+		display: block;
+		font: 12px Sans-serif;
+		margin: 0 auto;
+		width: 900px;
+}
+
+#menu {
+		float: left;
+		padding: 0px;
+		margin: 0px;
+		width: 15%;
+		clear: left;
+}
+
+#menu ul {
+		width: 70%;
+		margin-left: 10px;
+}
+		
+#menu ul li.itensmenu {
+		margin: 0px 0px 0px -38px; 
+		padding: 6px;
+		border-bottom: 1px solid #CCC;
+		text-align: left;
+		list-style-type: none;
+		cursor: pointer;
+}
+
+#menu li.itensmenu a:link {
+		color: #777;
+		font-weight: bold;
+		text-decoration: none;
+		display: block;
+}
+		
+#menu li.itensmenu a:hover {
+		color: rgb(34, 164, 217);
+}
+		
+.menuBlock {
+		background: none repeat scroll 0% 0% rgb(34, 164, 217);
+		margin: 0 auto;
+		list-style-type: none;
+}	
+
+ul.menuBlock a{
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+		margin-left: -38px;
+}
+		
+ul.menuBlock li{
+		padding: 6px;
+		margin-bottom: -10px;
+}		
+
+.radio{
+	height: 20px !important;
+ }
+
+ .radio_button{
+	margin-left: 7px;
+ }
+
+ form button{
+	padding: 3%;
+	text-align: center;
+ }
+
+.btn-danger{
+	background-color: rgb(221, 34, 71);
+	color: #fff;
+	padding: 2% 5%;
+}
+
+.btn-success{
+	background-color: rgb(3, 187, 43);
+	color: #fff;
+	padding: 2% 5%;
+}
+
+.btn-warning{
+	background-color: rgb(251, 100, 10);
+	color: rgb(255, 255, 255);
+	padding: 2% 5%;
+}
+
+.btn-back{
+	background-color: rgb(61, 13, 235);
+	color: rgb(255, 255, 255);
+	padding: 2% 5%;
+	height: 0% !important;
+}
+
+
+
